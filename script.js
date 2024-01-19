@@ -21,7 +21,7 @@ document.getElementById('subscribeForm').addEventListener('submit', function(eve
     .then(response => {
         if (response.ok) {
             // Display thank you message
-            var thankYouMessage = '<p>Thank you for your submission! You will receive an email with DropshipAI V1 releases.</p>';
+            var thankYouMessage = '<p>Thank you for your submission!</p>';
             document.querySelector('.form-container').innerHTML = thankYouMessage;
         } else {
             // Handle errors
